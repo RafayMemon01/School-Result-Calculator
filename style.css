@@ -1,0 +1,30 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    background-color: blue;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 2em;
+}
+.btn button a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    margin-top: 10rem;
+}
+.btn button:hover{
+    background-color: rgb(54, 54, 255);
+    cursor: pointer;
+}
